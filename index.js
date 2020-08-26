@@ -56,7 +56,10 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+    inquire.prompt(questions)
+    .then(function(answers){
+        console.log(answers)
+    })
 }
 
 // function call to initialize program
@@ -64,7 +67,7 @@ init();
 
 
 // FORMAT OF README (markdown included)
-// ![license](https://img.shields.io/badge/license-<USER INPUT>-blue)
+// ![license badge](https://img.shields.io/badge/license-<USER INPUT>-blue)
 // # PROJECT TITLE
 // ## DESCRIPTION
     // description input goes here
