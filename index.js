@@ -61,3 +61,27 @@ function init() {
 
 // function call to initialize program
 init();
+
+
+// FORMAT OF README (markdown included)
+// ![license](https://img.shields.io/badge/license-<USER INPUT>-blue)
+// # PROJECT TITLE
+// ## DESCRIPTION
+    // description input goes here
+// ## TABLE OF CONTENTS
+    // * [item one](#item one)
+    // * [item two](#item two)
+    // * [item three](#item three)
+    // * [item four](#item four)
+// ## INSTALLATION
+    // installation input goes here
+// ## USAGE
+    // usage input goes here
+// ## LICENSE
+    // "This project is licensed under the [USER INPUT] license"
+// ## CONTRIBUTING
+    // contributing input goes here
+// ## TESTING
+    // to run tests, please run `USER INPUT` in the command line
+// ## QUESTIONS
+    // contact at [email input], check out more of my GitHub projects at [username input]
