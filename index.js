@@ -15,7 +15,7 @@ function init() {
     inquire.prompt(questions)
     .then(function(data){
         const readme = markdown(data);
-        writeToFile(`./examples/${data.title}-README.md`, readme)
+        writeToFile(`${data.title}-README.md`, readme)
     })
 }
 
